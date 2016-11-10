@@ -1,0 +1,24 @@
+# Site settings
+title: "IWriteThings"
+# email: admin@thetarotgamer.com
+description: > # this means to ignore newlines until "baseurl:"
+    A GitHub Jekyll site designed to contain my blog. This site is
+    built on the solarized theme.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://iwritethings.github.io/"
+github_username:  iwritethings
+# twitter_username: realtarotgamer
+# youtube_username: thetarotgamer
+
+# Build settings
+markdown: kramdown
+port: 4488
+permalink: pretty
+post_ext: md
+keep_files: [assets]
+# Pagination Settings
+paginate: 5
+paginate_path: "/index/page:num"
+# Gems
+gems:
+    - jekyll-paginate
